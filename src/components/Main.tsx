@@ -1,12 +1,12 @@
 
 
 import { useEffect, useState } from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Menubar from "./Menubar";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Footer from "./Footer";
-import Sell from "./Sell";
+import Sell from "./sell";
 import { fakeproduct } from "../data/fakeproduct";
 
 export interface Product {
