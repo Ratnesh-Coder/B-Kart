@@ -1,11 +1,18 @@
 <<<<<<< HEAD
-# B-Kart
-B-Kart a web-based marketplace built for college and university students to buy and sell educational products within their campus community. It simplifies the exchange of used items like textbooks, lab equipment, calculators, and other study-related tools — making education more affordable and accessible for students.
+# BWU-Kart
+BWU-Kart a web-based marketplace built for college and university students to buy and sell educational products within their campus community. It simplifies the exchange of used items like textbooks, lab equipment, calculators, and other study-related tools — making education more affordable and accessible for students.
+Problem Statement - 
+Students often struggle to find affordable study materials, tools, or gadgets, especially when they're only needed for a short time. Meanwhile, others have unused items they’d like to sell—but there’s no dedicated system in place for that.
+Solution (How BWU-Kart helps) - 
+Campus Kart solves this by creating a trusted, campus-specific marketplace where students can connect to buy and sell items like books, lab equipment, calculators, and more—safely and efficiently.
 =======
 <<<<<<< HEAD
-# B-Kart
+# BWU-Kart
 =======
-# React + TypeScript + Vite
+Frontend - React.js , Typescript , CSS , HTML 
+Serverless Backend - Firebase Authentication , Firebase Firestore
+Deployment - Vercel
+Other Tools - Git (Tracking code changes) , VS code (Code Editor)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
