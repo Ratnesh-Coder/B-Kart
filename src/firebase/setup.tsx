@@ -4,7 +4,7 @@ import { getStorage } from "firebase/storage";
 import {getAuth,GoogleAuthProvider} from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "MY_API_KEY",
+  apiKey: import.meta.env.VITE_MY_API_KEY,
   authDomain: "b-kart-28716.firebaseapp.com",
   projectId: "b-kart-28716",
   storageBucket: "b-kart-28716.firebasestorage.app",
