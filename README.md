@@ -43,44 +43,6 @@ The primary goals of B-Kart are:
 
 ---
 
-## ✨ Current Features
-
-### 🏠 Product Discovery
-
-- Browse available products.
-- Product cards with images, titles, prices, and categories.
-- Product detail pages.
-- Category-based navigation.
-- Basic product search.
-
-### 🔐 Authentication
-
-The prototype includes Firebase Authentication with Google Sign-In.
-
-### 🏷️ Sell Products
-
-Users can enter basic product information and submit a product through the selling interface.
-
-### 🔥 Firebase Integration
-
-The project includes Firebase integration for:
-
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-
-### 🎨 User Interface
-
-The application uses:
-
-- Responsive layouts
-- Tailwind CSS
-- Reusable React components
-- Navigation and category menus
-- Product-focused UI
-
----
-
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
@@ -95,65 +57,6 @@ The application uses:
 | **Firebase Storage** | Image storage foundation |
 | **ESLint** | Code quality and linting |
 | **Git & GitHub** | Version control |
-
----
-
-## 🏗️ Project Structure
-
-```text
-B-Kart/
-│
-├── public/
-│   ├── 404.html
-│   ├── index.html
-│   └── vite.svg
-│
-├── src/
-│   │
-│   ├── assets/
-│   │   ├── BWUKart.png
-│   │   ├── arrow.png
-│   │   ├── google.png
-│   │   ├── guitar.png
-│   │   ├── lens.png
-│   │   ├── phone.png
-│   │   └── search.png
-│   │
-│   ├── components/
-│   │   ├── Footer.tsx
-│   │   ├── Home.tsx
-│   │   ├── Login.tsx
-│   │   ├── Main.tsx
-│   │   ├── Menubar.tsx
-│   │   ├── Navbar.tsx
-│   │   ├── details.tsx
-│   │   └── sell.tsx
-│   │
-│   ├── data/
-│   │   └── fakeproduct.ts
-│   │
-│   ├── firebase/
-│   │   └── setup.tsx
-│   │
-│   ├── App.css
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── vite-env.d.ts
-│
-├── firestore.rules
-├── firestore.indexes.json
-├── storage.rules
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.ts
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-├── eslint.config.js
-├── package.json
-└── README.md
-```
 
 ---
 
@@ -214,8 +117,6 @@ VITE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_APP_ID=your_app_id
 ```
 
-> **Important:** Never commit private credentials, service-account keys, or other sensitive Firebase configuration files to GitHub.
-
 The exact environment variable names should match the Firebase configuration used in `src/firebase/setup.tsx`.
 
 ---
@@ -254,62 +155,6 @@ npm run preview
 
 ---
 
-## 🔄 Application Flow
-
-The current prototype follows this general flow:
-
-```text
-                    B-Kart
-                       │
-             ┌─────────┴─────────┐
-             │                   │
-          Browse                Sell
-             │                   │
-             ↓                   ↓
-        Product List       Product Form
-             │                   │
-             ↓                   ↓
-      Product Details       Firebase
-             │
-             ↓
-        View Product
-```
-
-Authentication is handled through Firebase:
-
-```text
-User
-  │
-  ↓
-Login
-  │
-  ↓
-Google Authentication
-  │
-  ↓
-Firebase Auth
-```
-
----
-
-## 🗂️ Product Categories
-
-The prototype includes categories intended for common university requirements, including:
-
-- Books
-- Electronics
-- Laboratory Equipment
-- Stationery
-- Furniture
-- Hostel Supplies
-- Cycles
-- Accessories
-- Sports Equipment
-- Medical/First-Aid Items
-- Bikes
-
----
-
 ## 📸 Prototype
 
 The project was initially created as a **hackathon demonstration**, with the primary focus being on validating the concept and presenting the user experience.
@@ -333,102 +178,13 @@ The current version intentionally remains a prototype and has several areas that
 
 The prototype currently uses temporary browser image URLs in parts of the selling workflow. A production implementation should use Firebase Storage for persistent image storage.
 
-### Marketplace Features
-
-The following are planned but are not fully implemented in the current prototype:
-
-- Shopping cart
-- Checkout
-- Orders
-- Order history
-- Delivery tracking
-- Seller dashboard
-- Product moderation
-- Admin dashboard
-- Product reviews
-- Notifications
-
 ### Security
 
 Firebase security rules require further development before the application can be considered production-ready.
 
----
-
 ## 🗺️ Future Roadmap
 
 The long-term goal is to evolve B-Kart from a hackathon prototype into a complete student marketplace.
-
-### Phase 1 — Foundation
-
-- [ ] Refactor project architecture
-- [ ] Create consistent TypeScript data models
-- [ ] Improve Firebase configuration
-- [ ] Implement production-ready Firestore rules
-- [ ] Implement production-ready Storage rules
-
-### Phase 2 — User System
-
-- [ ] User profiles
-- [ ] Student verification
-- [ ] User roles
-- [ ] Seller profiles
-- [ ] My Listings
-
-### Phase 3 — Product System
-
-- [ ] Persistent image uploads
-- [ ] Product categories
-- [ ] Product conditions
-- [ ] Multiple product images
-- [ ] Product editing
-- [ ] Product deletion
-- [ ] Product moderation
-
-### Phase 4 — Marketplace
-
-- [ ] Shopping cart
-- [ ] Checkout
-- [ ] Order creation
-- [ ] Order history
-- [ ] Order status
-- [ ] Delivery workflow
-
-### Phase 5 — Administration
-
-- [ ] Admin dashboard
-- [ ] Product approval/rejection
-- [ ] User management
-- [ ] Order management
-- [ ] Reports and moderation tools
-
-### Phase 6 — Production
-
-- [ ] Performance optimization
-- [ ] Security audit
-- [ ] Error handling
-- [ ] Automated testing
-- [ ] Production deployment
-- [ ] Monitoring and analytics
-
----
-
-## 🔒 Security
-
-Security is an important part of the planned production version of B-Kart.
-
-The application is intended to use:
-
-- Firebase Authentication
-- Firestore Security Rules
-- Firebase Storage Security Rules
-- Role-based authorization
-- Seller ownership verification
-- Input validation
-- Secure environment configuration
-
-> The current GitHub repository represents a prototype and should not be treated as a production-ready marketplace.
-
----
 
 ## 🎓 Origin of the Project
 
@@ -440,31 +196,11 @@ The project is being retained as a foundation for future development and archite
 
 ---
 
-## 📚 What I Learned
-
-Building B-Kart helped me gain practical experience with:
-
-- React component development
-- TypeScript
-- Client-side routing
-- Tailwind CSS
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-- Form handling
-- State management
-- Responsive web design
-- Git and GitHub
-- Project architecture
-- Debugging and troubleshooting
-
----
-
 ## 👨‍💻 Author
 
 **Ratnesh**
 
-Engineering Student & Developer
+Engineering Student
 
 GitHub:  
 https://github.com/Ratnesh-Coder
@@ -476,18 +212,6 @@ https://github.com/Ratnesh-Coder
 This project is currently maintained as a personal/student project.
 
 If a formal open-source license is added in the future, the license information will be updated here.
-
----
-
-## ⭐ Acknowledgements
-
-Built with:
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Firebase
 
 ---
 
