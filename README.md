@@ -1,70 +1,22 @@
-# 🛒 B-Kart
+<<<<<<< HEAD
+# BWU-Kart
+BWU-Kart a web-based marketplace built for college and university students to buy and sell educational products within their campus community. It simplifies the exchange of used items like textbooks, lab equipment, calculators, and other study-related tools — making education more affordable and accessible for students.
+Problem Statement - 
+Students often struggle to find affordable study materials, tools, or gadgets, especially when they're only needed for a short time. Meanwhile, others have unused items they’d like to sell—but there’s no dedicated system in place for that.
+Solution (How BWU-Kart helps) - 
+Campus Kart solves this by creating a trusted, campus-specific marketplace where students can connect to buy and sell items like books, lab equipment, calculators, and more—safely and efficiently.
+=======
+<<<<<<< HEAD
+# BWU-Kart
+=======
+Frontend - React.js , Typescript , CSS , HTML 
+Serverless Backend - Firebase Authentication , Firebase Firestore
+Deployment - Vercel
+Other Tools - Git (Tracking code changes) , VS code (Code Editor)
 
-### A Student-Centric Marketplace for University Communities
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**B-Kart** is a student-focused online marketplace designed to make buying and selling products within a university community simple, accessible, and convenient.
-
-The project was originally developed as a **hackathon prototype** to demonstrate the concept of a campus-focused marketplace. It was built as my first web development project using **React, TypeScript, Tailwind CSS, and Firebase**.
-
-> **Project Status:** 🚧 Prototype / Hackathon Version
-
----
-
-## 📌 About the Project
-
-Students frequently need products such as books, stationery, electronics, bicycles, laboratory equipment, hostel supplies, sports equipment, and other everyday items.
-
-Traditional marketplaces are not specifically designed around the needs of a university campus.
-
-**B-Kart** explores the idea of creating a dedicated marketplace where students can discover and list products relevant to their campus community.
-
-The prototype focuses on:
-
-- 🛍️ Browsing products
-- 🔎 Searching for products
-- 🗂️ Browsing products by category
-- 📦 Viewing product details
-- 🏷️ Listing products for sale
-- 🔐 Google authentication
-- ☁️ Firebase integration
-- 📱 Responsive web interface
-
----
-
-## 🎯 Project Goals
-
-The primary goals of B-Kart are:
-
-1. Create a marketplace specifically for students.
-2. Make buying and selling within a university community easier.
-3. Provide a simple and accessible user interface.
-4. Demonstrate how modern web technologies can be combined to build a marketplace application.
-5. Establish a foundation that can later be expanded into a complete production-ready platform.
-
----
-
-## 🛠️ Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| **React** | Frontend UI |
-| **TypeScript** | Type-safe JavaScript development |
-| **Vite** | Development server and build tool |
-| **React Router** | Client-side routing |
-| **Tailwind CSS** | Styling and responsive UI |
-| **Firebase Authentication** | User authentication |
-| **Cloud Firestore** | Product/database layer |
-| **Firebase Storage** | Image storage foundation |
-| **ESLint** | Code quality and linting |
-| **Git & GitHub** | Version control |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
+Currently, two official plugins are available:
 
 - [Node.js](https://nodejs.org/)
 - npm

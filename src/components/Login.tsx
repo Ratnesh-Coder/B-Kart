@@ -45,7 +45,7 @@ const Login = (props:popupProp) => {
                 <h1 className="text-center mt-4 cursor-pointer">OR</h1>
                 <h1 className="text-center mt-4 underline cursor-pointer">Login with Email</h1>
                 <h1 className="text-center mt-28 text-xs">All your personal details are safe with us.</h1>
-                <h1 className="text-center mt-4 text-xs">If you continue, you are accepting <span className="text-blue-600">B-kart Terms and <br/>Conditions and Privacy Policy</span></h1>
+                <h1 className="text-center mt-4 text-xs">If you continue, you are accepting <span className="text-blue-600">BWU-Cart Terms and <br/>Conditions and Privacy Policy</span></h1>
               </div>
             </div>
           </div>
