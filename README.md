@@ -1,13 +1,13 @@
 <<<<<<< HEAD
-# BWU-Kart
-BWU-Kart a web-based marketplace built for college and university students to buy and sell educational products within their campus community. It simplifies the exchange of used items like textbooks, lab equipment, calculators, and other study-related tools — making education more affordable and accessible for students.
+# BWU-Cart
+BWU-Cart a web-based marketplace built for college and university students to buy and sell educational products within their campus community. It simplifies the exchange of used items like textbooks, lab equipment, calculators, and other study-related tools — making education more affordable and accessible for students.
 Problem Statement - 
 Students often struggle to find affordable study materials, tools, or gadgets, especially when they're only needed for a short time. Meanwhile, others have unused items they’d like to sell—but there’s no dedicated system in place for that.
-Solution (How BWU-Kart helps) - 
-Campus Kart solves this by creating a trusted, campus-specific marketplace where students can connect to buy and sell items like books, lab equipment, calculators, and more—safely and efficiently.
+Solution (How BWU-Cart helps) - 
+BWU Cart solves this by creating a trusted, campus-specific marketplace where students can connect to buy and sell items like books, lab equipment, calculators, and more—safely and efficiently.
 =======
 <<<<<<< HEAD
-# BWU-Kart
+# BWU-Cart
 =======
 Frontend - React.js , Typescript , CSS , HTML 
 Serverless Backend - Firebase Authentication , Firebase Firestore
@@ -37,13 +37,13 @@ git --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/Ratnesh-Coder/B-Kart.git
+git clone https://github.com/Ratnesh-Coder/BWU-Cart.git
 ```
 
 Navigate into the project:
 
 ```bash
-cd B-Kart
+cd BWU-Cart
 ```
 
 Install dependencies:
@@ -56,7 +56,7 @@ npm install
 
 ## 🔐 Firebase Configuration
 
-B-Kart uses Firebase services for authentication, database functionality, and storage.
+BWU-Cart uses Firebase services for authentication, database functionality, and storage.
 
 Create a `.env` file in the project root:
 
@@ -136,11 +136,11 @@ Firebase security rules require further development before the application can b
 
 ## 🗺️ Future Roadmap
 
-The long-term goal is to evolve B-Kart from a hackathon prototype into a complete student marketplace.
+The long-term goal is to evolve BWU-Cart from a hackathon prototype into a complete student marketplace.
 
 ## 🎓 Origin of the Project
 
-B-Kart was created as a **university-focused hackathon project** and was also my first major web development project.
+BWU-Cart was created as a **university-focused hackathon project** and was also my first major web development project.
 
 The initial goal was not to build a complete commercial e-commerce platform, but to demonstrate the concept of a marketplace designed specifically for students.
 
@@ -167,8 +167,8 @@ If a formal open-source license is added in the future, the license information 
 
 ---
 
-### B-Kart
+### BWU-Cart
 
 **A marketplace built around the needs of students.**
 
-> From a hackathon prototype to a complete student marketplace — this is the beginning of B-Kart.
+> From a hackathon prototype to a complete student marketplace — this is the beginning of BWU-Cart.
